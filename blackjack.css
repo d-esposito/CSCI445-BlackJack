@@ -1,0 +1,32 @@
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  /*justify-content: center;*/
+}
+
+div.buttons {
+	padding: 0 50px;
+}
+
+button.hit, button.stand, button.start {
+	justify-content: center;
+	align-items: center;
+	font-size: x-large;
+	width: 20%;
+	height: 10%;
+	
+}
+
+div.dealer, div.player, div.comp1, div.comp2 {
+	padding : .5em;
+	border-color : black;
+	border: solid;
+}
+
+img {
+	padding: .1em;
+
+}
